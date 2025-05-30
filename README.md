@@ -4,7 +4,7 @@ Chuangji Meng,  Jinghuai Gao, Yajun Tian, Hongling Chen, Lin Zhou, Jie Chen, Qiu
 
 Schematic diagram of BNN_LAN_DNN model and  BNNv2_LAN_DNN model
 ![DDPM_sampling](assets/x_evolve.png)
-![Unconditional sampling](assets/x_evolve_more.jpg)
+![Unconditional sampling](assets/x_evolve_more.png)
 
 
 ### Train a model
