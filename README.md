@@ -13,7 +13,16 @@ Training is exactly the same as DDPM with the following:
 python main.py --config {DATASET}.yml --exp {PROJECT_PATH} --doc {MODEL_NAME} --ni
 ```
 
+### Pretrained Checkpoints
+We provide three trained models and log files in files `<exp>/logs/MmsSegyopenf_lin` (linear noise schedules), `<exp>/logs/MmsSegyopenf_cos` (cosine noise schedules) and `<exp>/logs/MmsSegyopenf_pow4` (power noise schedules,a=4).  see [pretrained model](通过网盘分享的文件：DDPM-seismic
+链接: https://pan.baidu.com/s/13dqNc7UgtbVbDgcM-zMEVw?pwd=1111), 提取码: 1111.
+
+
 ### Sampling from the model
+
+```
+python main.py --config {DATASET}.yml --exp {PROJECT_PATH} --doc {MODEL_NAME} --ni
+```
 
 #### Sampling from the generalized model for FID evaluation
 ```
